@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #FBFBFB;
+  box-sizing: border-box;
+}
+
+a:link {
+  color: none;
+  text-decoration: none;
+}
+
+a:visited {i
+  color: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#fixed-header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #CED6DE;
+  top: 0;
+}
+
+.new_game_btn{
+  margin-top: 11px;
+  float: right;
+  margin-right: 25px;
+}
+
+a.submit_btn{
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  width: 115px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 2px;
+  text-align: center;
+  background-color: #009396;
+  color: #FBFBFB;
+}
+
+#user-header{
+  display: inline-block;
+  height: 32px;
+  margin-top: 9px;
+  float: right;
+  width: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: right;
+  border-left: 1px solid #CED6DE;
+  /*background-color: pink;*/
+}
+
+span.first{
+  display: inline-block;
+  vertical-align: middle;
+  color: #6A6B6B;
+}
+
+img.profile_pic{
+  vertical-align: middle;
+  max-width:32px;
+  max-height:32px;
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+}
+
+#above-header-content{
+  overflow: hidden;
+  height: auto;
+  margin-top: 50px;
+}
+
+#fixed-left-menu{
+  position: fixed;
+  display: inline-block;
+  top: 51px;
+  float: left;
+  height: 100%;
+  width: 60px;
+  background-color: #E4E4E6;
+}
+
+#content{
+  overflow: hidden;
+  height: auto;
+  margin-left: 60px;
+  /*background: green*/
+}
