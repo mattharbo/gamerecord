@@ -22,6 +22,8 @@
 
 			<a href="#" class="submit_btn new_game_btn">New Game</a>
 
+			<input type="text" placeholder="Search" id="search-field" class="search-field"></input>
+
 		</div>
 
 		<div id="above-header-content">

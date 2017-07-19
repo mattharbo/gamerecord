@@ -92,6 +92,45 @@ img.profile_pic{
   padding-left: 15px;
 }
 
+#search-field{
+  display: inline-block;
+  height: 50px;
+  width: 500px;
+}
+
+.search-field{
+  background: url(../ressources/search_icon.png) no-repeat scroll 0px 18px;
+  background-size: 15px 15px;
+  padding-left:25px;
+  margin-left: 70px;
+  border: none;
+  text-transform: uppercase;
+  color: #6A6B6B;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #A0A0A2;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #A0A0A2;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #A0A0A2;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #A0A0A2;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #A0A0A2;
+}
+
+*:focus {
+    outline: none;
+}
+
 #above-header-content{
   overflow: hidden;
   height: auto;
