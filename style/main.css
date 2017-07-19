@@ -95,19 +95,25 @@ img.profile_pic{
 #search-field{
   display: inline-block;
   height: 50px;
-  width: 500px;
+  width: 333px;
 }
 
 .search-field{
   background: url(../ressources/search_icon.png) no-repeat scroll 0px 18px;
   background-size: 15px 15px;
   padding-left:25px;
-  margin-left: 70px;
+  margin-left: 10px;
   border: none;
   text-transform: uppercase;
   color: #6A6B6B;
 }
 
+#main-logo{
+  display: inline-block;
+  height: 50px;
+  width: 60px;
+  background-color: orange;
+}
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #A0A0A2;
@@ -152,4 +158,13 @@ img.profile_pic{
   height: auto;
   margin-left: 60px;
   /*background: green*/
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+
+  .search-field{
+    background: url(../ressources/search_icon.png) no-repeat scroll 0px 18px;
+    background-size: 15px 15px;
+  }
+      
 }

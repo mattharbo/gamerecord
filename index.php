@@ -15,6 +15,8 @@
 
 		<div id="fixed-header">
 
+			<div id="main-logo">logo</div>
+
 			<div id="user-header">
 				<span class="first">Matthieu Harbonnier</span>
 				<img src="./ressources/profile_pic.png" class="profile_pic">
@@ -22,6 +24,8 @@
 
 			<a href="#" class="submit_btn new_game_btn">New Game</a>
 
+			
+			
 			<input type="text" placeholder="Search" id="search-field" class="search-field"></input>
 
 		</div>
@@ -35,6 +39,11 @@
 				Hello world! <br> Some content here
 			</div>
 		</div>
+
+
+
+		Please see the new structure here !!!!<br>
+		https://jsfiddle.net/mattharbo/qquq26ro/
 
 
 
