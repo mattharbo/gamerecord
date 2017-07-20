@@ -12,40 +12,77 @@
 		
 	</head>
 	<body>
+		
+		<div id="header">
+		    <div id="logo">
+		    	logo
+		    </div>
+		    
+		    <div id="search">
+		    	<input type="text" placeholder="Search" class="search-field"></input>
+		    </div>
+		    
+		    
+		    <div id="user">
 
-		<div id="fixed-header">
+		    	<div id="newbtn">
+		    		<a href="#" class="submit_btn new_game_btn">New Game</a>
+		    	</div>
 
-			<div id="main-logo">logo</div>
+		    	<div id="account">
+					<span class="first">Matthieu Harbonnier</span>
+					<img src="./ressources/profile_pic.png" class="profile_pic">
+				</div>
 
-			<div id="user-header">
-				<span class="first">Matthieu Harbonnier</span>
-				<img src="./ressources/profile_pic.png" class="profile_pic">
-			</div>
-
-			<a href="#" class="submit_btn new_game_btn">New Game</a>
-
-			
-			
-			<input type="text" placeholder="Search" id="search-field" class="search-field"></input>
-
+		    </div>
 		</div>
 
-		<div id="above-header-content">
-			<div id="fixed-left-menu">
-				left menu
-			</div>
-
-			<div id="content">
-				Hello world! <br> Some content here
-			</div>
+		<div id="content">
+		  <div id="sidemenu">sidemenu</div>
+		  <div id="maincontent">
+		    1 maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    7 maincontent<br>
+		    maincontent<br>
+		    9 maincontent<br>
+		    maincontent<br>
+		    11 maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		    maincontent<br>
+		   </div>
 		</div>
-
-
-
-		Please see the new structure here !!!!<br>
-		https://jsfiddle.net/mattharbo/qquq26ro/
-
-
 
 	</body>
 </html>
