@@ -79,19 +79,19 @@ ul {
 }
 
 #logo{
-  width:100px;
+  width:115px;
   height:50px;
   display:inline-block;
   float:left;
   text-indent: -9999px;
   white-space: nowrap; 
   background: url(../ressources/staper_logo@x1.png) no-repeat scroll center center;
-  background-size: 76.5px 16px;
+  background-size: 65px 10px;
   /*background:orange;*/
 }
 
 #search{
-  width:40%;
+  width:41%;
   height:50px;
   display:inline-block;
   /*background:blue;*/
@@ -122,25 +122,24 @@ ul {
 .new_game_btn{
   margin-top: 11px;
   float: right;
-  margin-right: 25px;
 }
 
 a.submit_btn{
   display:inline-block;
-  text-transform: uppercase;
-  font-weight: 700;
+  /*text-transform: uppercase;*/
+  font-weight: 600;
   font-size: 11px;
-  width: 115px;
+  width: 100px;
   height: 26px;
   line-height: 26px;
-  border-radius: 2px;
+  border-radius: 3px;
   text-align: center;
   background-color: #009396;
   color: #FBFBFB;
 }
 
 #user{
-  width:300px;
+  width:333px;
   height:50px;
   display:inline-block;
   /*background:pink;*/
@@ -151,7 +150,7 @@ a.submit_btn{
   display: inline-block;
   float: right;
   text-align: center;
-  width: 199px;
+  width: 210px;
   height: 32px;
   margin-top: 9px;
   border-left: 1px solid #CED6DE;
@@ -180,7 +179,7 @@ img.profile_pic{
 }
 
 #sidemenu {
-    width:60px;
+    width:50px;
     display:inline-block;
     background:#E4E4E6;
     height:100%;
@@ -196,40 +195,61 @@ li.sidemenutopentry {
     text-indent: -9999px;
 }
 
-li.sidemenutopentry:hover {
+li.mainentry:hover {
   border-left:5px solid #009396;
 }
 
 li.scheduled {
   background: url(../ressources/scheduled_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 20px 20px;
+  background-size: 15px 15px;
 }
 
 li.scheduled:hover {
-  background: url(../ressources/scheduled_entry@x1.png) no-repeat scroll 15px center;
-  background-size: 20px 20px;
+  background: url(../ressources/scheduled_entry@x1.png) no-repeat scroll 13px center;
+  background-size: 15px 15px;
 }
 
 li.history {
   background: url(../ressources/history_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 20px 20px;
+  background-size: 15px 15px;
 }
 
 }
 li.history:hover {
-  background: url(../ressources/history_entry@x1.png) no-repeat scroll 15px center;
-  background-size: 20px 20px;
+  background: url(../ressources/history_entry@x1.png) no-repeat scroll 13px center;
+  background-size: 15px 15px;
 }
 
 li.settings {
   background: url(../ressources/settings_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 20px 20px;
+  background-size: 14px 14px;
 }
 
 }
 li.settings:hover {
-  background: url(../ressources/settings_entry@x1.png) no-repeat scroll 15px center;
-  background-size: 20px 20px;
+  background: url(../ressources/settings_entry@x1.png) no-repeat scroll 12px center;
+  background-size: 14px 14px;
+}
+
+li.newgame {
+  background: url(../ressources/newgame_entry_default@x1.png) no-repeat scroll center center;
+  background-size: 30px 30px;
+}
+
+ul#sidemenuexpand{
+  position: absolute;
+  width: 50px;
+  bottom: 0;
+  /*border-top: 1px solid #CED6DE;*/
+  /*background-color: red;*/
+}
+
+li.sidemenubottomentry {
+  box-sizing: border-box;
+  height: 45px;
+  text-indent: -9999px;
+  background: url(../ressources/expand_icon@x1.png) no-repeat scroll center center;
+  background-size: 10px 12px;
 }
 
 #maincontent {
@@ -247,7 +267,7 @@ li.settings:hover {
 
   #logo{
     background: url(../ressources/staper_logo@x2.png) no-repeat scroll center center;
-    background-size: 76.5px 16px;
+    background-size: 65px 10px;
   }
 
   .search-field{
@@ -257,33 +277,43 @@ li.settings:hover {
 
   li.scheduled {
     background: url(../ressources/scheduled_entry_default@x2.png) no-repeat scroll center center;
-    background-size: 20px 20px;
+    background-size: 15px 15px;
   }
 
   li.scheduled:hover {
-    background: url(../ressources/scheduled_entry@x2.png) no-repeat scroll 15px center;
-    background-size: 20px 20px;
+    background: url(../ressources/scheduled_entry@x2.png) no-repeat scroll 13px center;
+    background-size: 15px 15px;
   }
 
   li.history {
     background: url(../ressources/history_entry_default@x2.png) no-repeat scroll center center;
-    background-size: 20px 20px;
+    background-size: 15px 15px;
   }
 
   }
   li.history:hover {
-    background: url(../ressources/history_entry@x2.png) no-repeat scroll 15px center;
-    background-size: 20px 20px;
+    background: url(../ressources/history_entry@x2.png) no-repeat scroll 13px center;
+    background-size: 15px 15px;
   }
 
   li.settings {
   background: url(../ressources/settings_entry_default@x2.png) no-repeat scroll center center;
-  background-size: 20px 20px;
+  background-size: 14px 14px;
   }
 
   li.settings:hover {
-    background: url(../ressources/settings_entry@x2.png) no-repeat scroll 15px center;
-    background-size: 20px 20px;
+    background: url(../ressources/settings_entry@x2.png) no-repeat scroll 13px center;
+    background-size: 14px 14px;
   }
+
+  li.newgame {
+  background: url(../ressources/newgame_entry_default@x2.png) no-repeat scroll center center;
+  background-size: 30px 30px;
+  }
+
+  li.sidemenubottomentry {
+    background: url(../ressources/expand_icon@x2.png) no-repeat scroll center center;
+    background-size: 10px 12px;
+}
       
 }

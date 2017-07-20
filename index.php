@@ -40,10 +40,13 @@
 		<div id="content">
 		  <div id="sidemenu">
 		  	<ul>
-		  		<li class="sidemenutopentry scheduled">1</li>
-		  		<li class="sidemenutopentry history">2</li>
-		  		<li class="sidemenutopentry settings">3</li>
-		  		<li class="sidemenutopentry newgame">4</li>
+		  		<li class="sidemenutopentry mainentry scheduled">scheduled</li>
+		  		<li class="sidemenutopentry mainentry history">history</li>
+		  		<li class="sidemenutopentry mainentry settings">settings</li>
+		  		<li class="sidemenutopentry newgame">newgame</li>
+		  	</ul>
+		  	<ul id="sidemenuexpand">
+		  		<li class="sidemenubottomentry">expand</li>
 		  	</ul>
 		  </div>
 
