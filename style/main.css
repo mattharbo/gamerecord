@@ -62,6 +62,10 @@ a:active {
    color: #CFCFCF;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /***************************/
 /*Interface styles*/
 /***************************/
@@ -178,9 +182,54 @@ img.profile_pic{
 #sidemenu {
     width:60px;
     display:inline-block;
-    background:brown;
+    background:#E4E4E6;
     height:100%;
     float:left;
+}
+
+li.sidemenutopentry {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    background: #cce5ff;
+    margin-top: 15px;
+    text-indent: -9999px;
+}
+
+li.sidemenutopentry:hover {
+  border-left:5px solid #009396;
+}
+
+li.scheduled {
+  background: url(../ressources/scheduled_entry_default@x1.png) no-repeat scroll center center;
+  background-size: 20px 20px;
+}
+
+li.scheduled:hover {
+  background: url(../ressources/scheduled_entry@x1.png) no-repeat scroll 15px center;
+  background-size: 20px 20px;
+}
+
+li.history {
+  background: url(../ressources/history_entry_default@x1.png) no-repeat scroll center center;
+  background-size: 20px 20px;
+}
+
+}
+li.history:hover {
+  background: url(../ressources/history_entry@x1.png) no-repeat scroll 15px center;
+  background-size: 20px 20px;
+}
+
+li.settings {
+  background: url(../ressources/settings_entry_default@x1.png) no-repeat scroll center center;
+  background-size: 20px 20px;
+}
+
+}
+li.settings:hover {
+  background: url(../ressources/settings_entry@x1.png) no-repeat scroll 15px center;
+  background-size: 20px 20px;
 }
 
 #maincontent {
@@ -204,6 +253,37 @@ img.profile_pic{
   .search-field{
     background: url(../ressources/search_icon.png) no-repeat scroll 0px 18px;
     background-size: 15px 15px;
+  }
+
+  li.scheduled {
+    background: url(../ressources/scheduled_entry_default@x2.png) no-repeat scroll center center;
+    background-size: 20px 20px;
+  }
+
+  li.scheduled:hover {
+    background: url(../ressources/scheduled_entry@x2.png) no-repeat scroll 15px center;
+    background-size: 20px 20px;
+  }
+
+  li.history {
+    background: url(../ressources/history_entry_default@x2.png) no-repeat scroll center center;
+    background-size: 20px 20px;
+  }
+
+  }
+  li.history:hover {
+    background: url(../ressources/history_entry@x2.png) no-repeat scroll 15px center;
+    background-size: 20px 20px;
+  }
+
+  li.settings {
+  background: url(../ressources/settings_entry_default@x2.png) no-repeat scroll center center;
+  background-size: 20px 20px;
+  }
+
+  li.settings:hover {
+    background: url(../ressources/settings_entry@x2.png) no-repeat scroll 15px center;
+    background-size: 20px 20px;
   }
       
 }

@@ -38,49 +38,28 @@
 		</div>
 
 		<div id="content">
-		  <div id="sidemenu">sidemenu</div>
+		  <div id="sidemenu">
+		  	<ul>
+		  		<li class="sidemenutopentry scheduled">1</li>
+		  		<li class="sidemenutopentry history">2</li>
+		  		<li class="sidemenutopentry settings">3</li>
+		  		<li class="sidemenutopentry newgame">4</li>
+		  	</ul>
+		  </div>
+
 		  <div id="maincontent">
-		    1 maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    7 maincontent<br>
-		    maincontent<br>
-		    9 maincontent<br>
-		    maincontent<br>
-		    11 maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
-		    maincontent<br>
+
+		  	<?php
+
+		  		for ($i=1; $i <= 132; $i++) {
+		  			if ($i!=32) {
+		  				echo $i." line content<br>";
+		  			}else{
+		  				echo $i." line content &#128076;<br>";
+		  			}
+		  		}
+		  	?>
+		    
 		   </div>
 		</div>
 
