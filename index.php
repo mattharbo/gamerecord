@@ -52,6 +52,10 @@
 
 		  <div id="maincontent">
 
+		  	<div id="contenttitlecontainer">
+		  		
+		  	</div>
+
 		  	<?php
 
 		  		for ($i=1; $i <= 132; $i++) {

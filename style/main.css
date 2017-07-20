@@ -256,7 +256,16 @@ li.sidemenubottomentry {
     width: auto;
     height:100%;
     background:#f7f7f7;
+    color: #CED6DE;
     overflow: auto;
+}
+
+#contenttitlecontainer{
+  display: block;
+  width: 100%;
+  height: 140px;
+  /*border-bottom: 1px solid #CED6DE;*/
+  background-color: white;
 }
 
 /***************************/
