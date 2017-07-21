@@ -40,13 +40,13 @@
 		<div id="content">
 		  <div id="sidemenu">
 		  	<ul>
-		  		<li class="sidemenutopentry mainentry scheduled">scheduled</li>
-		  		<li class="sidemenutopentry mainentry history">history</li>
-		  		<li class="sidemenutopentry mainentry settings">settings</li>
-		  		<li class="sidemenutopentry newgame">newgame</li>
+		  		<li class="sidemenutopentry mainentry scheduled" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">scheduled</li>
+		  		<li class="sidemenutopentry mainentry history" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">history</li>
+		  		<li class="sidemenutopentry mainentry settings" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">settings</li>
+		  		<li class="sidemenutopentry newgame" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">newgame</li>
 		  	</ul>
-		  	<ul id="sidemenuexpand">
-		  		<li class="sidemenubottomentry">expand</li>
+		  	<ul id="sidemenuexpand" onclick="openLeftMenu()">
+		  		<li id="sidemenubottomentry" class="sidemenubottomentry">expand</li>
 		  	</ul>
 		  </div>
 
@@ -69,6 +69,9 @@
 		    
 		   </div>
 		</div>
+
+		<!-- ### SCRIPTS ### -->
+		<script type="text/javascript" src='./lib/maininterface.js'></script>
 
 	</body>
 </html>
