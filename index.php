@@ -1,6 +1,6 @@
 <html lang="en">
 	<head>
-		<title>Gamerecord • Record and manage your game stats</title>
+		<title>Staper | Record and manage your game stats</title>
 		
         <link rel="stylesheet" href="./style/main.css">
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/css" />

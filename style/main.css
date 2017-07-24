@@ -15,7 +15,7 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 13px;
   font-weight: 600;
-  background-color: #FBFBFB;
+  background-color: #fafafa;
   box-sizing: border-box;
   /*height: 100%;*/
 }
@@ -76,7 +76,7 @@ ul {
     height:50px;
     overflow: hidden;
     /*background:red;*/
-    border-bottom: 1px solid #CED6DE;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.098);
 }
 
 
@@ -125,9 +125,6 @@ ul {
 .new_game_btn{
   margin-top: 11px;
   float: right;
-}
-
-a.submit_btn{
   display:inline-block;
   /*text-transform: uppercase;*/
   font-weight: 700;
@@ -135,6 +132,9 @@ a.submit_btn{
   width: 100px;
   height: 26px;
   line-height: 26px;
+}
+
+a.submit_btn{
   border-radius: 3px;
   text-align: center;
   background-color: #009396;
@@ -161,7 +161,7 @@ a.submit_btn:hover{
   width: 210px;
   height: 32px;
   margin-top: 9px;
-  border-left: 1px solid #CED6DE;
+  border-left: 1px solid rgba(0, 0, 0, 0.098);
   cursor:pointer;
   /*background-color: blue;*/
 }
