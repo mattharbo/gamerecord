@@ -59,6 +59,20 @@
 				  	</div>
 
 				  	<div id="contentline">
+
+				  		<div id="eventdate">
+				  			<span class="month">AUG</span>
+				  			<span class="date">12</span>
+				  		</div>
+				  		<div id="eventdetails">
+				  			UEFA Champions League · Journey 1
+				  			Paris Saint-Germain vs. Barcelona FC
+				  		</div>
+				  		<div id="eventdeletioncontainer">
+				  			<div id="eventdeletion"></div>
+				  		</div>
+
+
 				  	</div>
 
 				  	<div id="contentline">
