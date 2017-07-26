@@ -12,11 +12,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 		
 	</head>
-	<body>
+	<body class="loginbody">
 
-		<div id="loginform">
+		<div id="login" class="loginlogo">
 
-			test
+			<div id="loginform">
+			</div>
+
 		</div>
 
 	</body>

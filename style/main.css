@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  /*font-family: 'Nunito Sans', sans-serif;*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;/*twitter like*/
   font-size: 13px;
   font-weight: 600;
   background-color: #fafafa;
@@ -169,7 +170,7 @@ a.submit_btn:hover{
 span.first{
   display: inline-block;
   vertical-align: middle;
-  color: #6A6B6B;
+  color: #66757f;
 }
 
 img.profile_pic{
@@ -190,10 +191,11 @@ img.profile_pic{
 #sidemenu {
     width:50px;
     display:inline-block;
-    background:#E4E4E6;
+    /*background:#E4E4E6;*/
     /*background: rgb(0, 111, 113);*/
     height:100%;
     float:left;
+    border-right: 1px solid rgba(0, 0, 0, 0.098);
     transition: .3s ease-in-out;
 }
 
@@ -273,17 +275,59 @@ li#sidemenubottomentry{
 #maincontent {
     width: auto;
     height:100%;
-    background:white;
+    background:#e6ecf0;
     color: #CED6DE;
     overflow: auto;
 }
 
+#listingcontent{
+  width: 800px;
+  height: auto;
+  margin: 20px auto 0 auto;
+  color: black;
+}
+
 #contenttitlecontainer{
-  display: block;
   width: 100%;
-  height: 140px;
-  /*border-bottom: 1px solid #CED6DE;*/
-  background-color: #f7f7f7;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.098);
+  /*margin-bottom: 20px;*/
+  background-color: white;
+}
+
+.contenttitle{
+  margin-left:20px; 
+  font-size: 19px;
+}
+
+#contentline{
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.098);
+  background-color: white;
+}
+
+#contentline:hover{
+  background-color: #f5f8fa;
+  /*cursor:pointer;*/
+}
+
+/***************************/
+/*Responsive management*/
+/***************************/
+
+/*IPAD PORTRAIT*/
+@media screen and (max-width: 768px){
+
+  #listingcontent{
+    width: 600px;
+    height: auto;
+    margin: 10px auto 0 auto;
+    background-color: white;
+    color: black;
+  }
+
 }
 
 /***************************/

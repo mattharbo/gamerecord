@@ -2,15 +2,44 @@
 /*Interface styles*/
 /***************************/
 
-#loginform {
+body.loginbody{
+	background-color: #e6ecf0;
+}
+
+#login {
     position: absolute;
     width:410px;
-    height:250px;
+    height:300px;
     top: 50%;
     left: 50%;
     overflow: hidden;
-    background:#deefe2;
-    border-radius: 3px;
-    margin: -125px 0 0 -205px;
+    margin: -150px 0 0 -205px;
+}
 
+.loginlogo{
+    background: url(../ressources/login_staper_logo@x1.png) no-repeat scroll center top;
+    background-size: 190px 34px;
+  }
+
+#loginform{
+	position: absolute;
+	height: 240px;
+	width: 99%;
+	bottom: 0;
+	border-radius: 3px;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,.05);
+}
+
+/***************************/
+/*Image management*/
+/***************************/
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+
+  .loginlogo{
+    background: url(../ressources/login_staper_logo@x2.png) no-repeat scroll center top;
+    background-size: 190px 34px;
+  }
+      
 }

@@ -40,10 +40,10 @@
 		<div id="content">
 		  <div id="sidemenu">
 		  	<ul>
-		  		<li class="sidemenutopentry mainentry scheduled" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">scheduled</li>
-		  		<li class="sidemenutopentry mainentry history" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">history</li>
-		  		<li class="sidemenutopentry mainentry settings" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">settings</li>
-		  		<li class="sidemenutopentry newgame" onmouseover="openLeftMenu()" onmouseout="closeLeftMenu()">newgame</li>
+		  		<li class="sidemenutopentry mainentry scheduled" onclick="openLeftMenu()">scheduled</li>
+		  		<li class="sidemenutopentry mainentry history" onclick="openLeftMenu()">history</li>
+		  		<li class="sidemenutopentry mainentry settings" onclick="openLeftMenu()">settings</li>
+		  		<li class="sidemenutopentry newgame" onclick="openLeftMenu()">newgame</li>
 		  	</ul>
 		  	<ul id="sidemenuexpand" onclick="openLeftMenu()">
 		  		<li id="sidemenubottomentry" class="sidemenubottomentry">expand</li>
@@ -52,20 +52,25 @@
 
 		  <div id="maincontent">
 
-		  	<div id="contenttitlecontainer">
-		  		Scheduled
-		  	</div>
+				<div id="listingcontent">		  	
 
-		  	<?php
+				  	<div id="contenttitlecontainer">
+				  		<span class="contenttitle">Scheduled games</span>
+				  	</div>
 
-		  		for ($i=1; $i <= 132; $i++) {
-		  			if ($i!=32) {
-		  				echo $i." line content<br>";
-		  			}else{
-		  				echo $i." line content &#128076;<br>";
-		  			}
-		  		}
-		  	?>
+				  	<div id="contentline">
+				  	</div>
+
+				  	<div id="contentline">
+				  	</div>
+
+				  	<div id="contentline">
+				  	</div>
+
+				  	<div id="contentline">
+				  	</div>
+
+		  		</div>
 		    
 		   </div>
 		</div>
