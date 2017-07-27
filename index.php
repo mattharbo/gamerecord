@@ -58,24 +58,57 @@
 				  		<span class="contenttitle">Scheduled games</span>
 				  	</div>
 
+				  	<!-- #### Scheduled game #### -->
+
 				  	<div id="contentline">
 
 				  		<div id="eventdate">
 				  			<span class="month">AUG</span>
 				  			<span class="date">12</span>
 				  		</div>
+
 				  		<div id="eventdetails">
-				  			UEFA Champions League · Journey 1
-				  			Paris Saint-Germain vs. Barcelona FC
+				  			<div id="eventleagueandco">
+				  				<span class="laegueinfo">UEFA Champions League</span>
+				  				<span class="journeyinfo">· Journey 1</span>
+				  			</div>
+				  			<div id="eventteams">
+				  				Paris Saint-Germain 
+				  				<span class="versusteam">vs.</span>
+				  				Barcelona FC
+				  			</div>
 				  		</div>
+
 				  		<div id="eventdeletioncontainer">
 				  			<div id="eventdeletion"></div>
 				  		</div>
 
-
 				  	</div>
 
+				  	<!-- #### Overdue game #### -->
+
 				  	<div id="contentline">
+
+				  		<div id="eventdate">
+				  			<span class="overduedate overdue">Overdue</span>
+				  		</div>
+
+				  		<div id="eventdetails">
+				  			<div id="eventleagueandco">
+				  				<span class="laegueinfo overdue">Fifa World Cup 1998</span>
+				  				<span class="journeyinfo">· Final</span>
+				  			</div>
+				  			<div id="eventteams" class="overdue">
+				  				France 
+				  				<span class="versusteam">vs.</span>
+				  				Brazil
+				  			</div>
+				  		</div>
+
+				  		<div id="eventdeletioncontainer">
+				  			<div id="eventdeletion"></div>
+				  		</div>
+
 				  	</div>
 
 				  	<div id="contentline">
