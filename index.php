@@ -79,7 +79,7 @@
 				  		</div>
 
 				  		<div id="eventdeletioncontainer">
-				  			<div id="eventdeletion"></div>
+				  			<div id="eventdeletion" onclick="opensmallpopin('gameidhere1')"></div>
 				  		</div>
 
 				  	</div>
@@ -106,7 +106,7 @@
 				  		</div>
 
 				  		<div id="eventdeletioncontainer">
-				  			<div id="eventdeletion"></div>
+				  			<div id="eventdeletion" onclick="opensmallpopin('gameidhere2')"></div>
 				  		</div>
 
 				  	</div>
@@ -173,7 +173,19 @@
 
 		<div id="popinbackground">
 			<div id="smallpopin">
-				smallpopin
+
+				<div id="popintitle">
+					<span class="popintitle">Delete this game?</span>
+					<div id="closebtn" onclick="closesmallpopin()">X</div>
+				</div>
+
+			Popin content
+
+			<!-- <div id="newbtn"> -->
+		    	<a href="#" class="submit_btn new_game_btn">Delete</a>
+		    	<a class="cancel_btn new_game_btn" onclick="closesmallpopin()">Cancel</a>
+		    <!-- </div> -->
+
 			</div>
 		<div>
 
