@@ -179,12 +179,14 @@
 					<div id="closebtn" onclick="closesmallpopin()">X</div>
 				</div>
 
-			Popin content
+				<div id="popincontent">
+					Are you sure you want to delete this game?
+				</div>
 
-			<!-- <div id="newbtn"> -->
-		    	<a href="#" class="submit_btn new_game_btn">Delete</a>
-		    	<a class="cancel_btn new_game_btn" onclick="closesmallpopin()">Cancel</a>
-		    <!-- </div> -->
+				<div id="popinoptions">
+		    		<a class="cancel_btn option_btn" onclick="closesmallpopin()">Cancel</a>
+		    		<a class="submit_btn option_btn">Delete</a>
+		    	</div>
 
 			</div>
 		<div>
