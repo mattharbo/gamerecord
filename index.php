@@ -185,7 +185,7 @@
 
 				<div id="popinoptions">
 		    		<a class="cancel_btn option_btn" onclick="closesmallpopin()">Cancel</a>
-		    		<a class="submit_btn option_btn">Delete</a>
+		    		<a class="delete_btn option_btn">Delete</a>
 		    	</div>
 
 			</div>
