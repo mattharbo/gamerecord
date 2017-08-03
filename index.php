@@ -40,14 +40,24 @@
 		<div id="content">
 		  <div id="sidemenu">
 		  	<ul>
-		  		<li class="sidemenutopentry mainentry scheduled" onclick="openLeftMenu()">scheduled</li>
-		  		<li class="sidemenutopentry mainentry history" onclick="openLeftMenu()">history</li>
-		  		<li class="sidemenutopentry mainentry settings" onclick="openLeftMenu()">settings</li>
-		  		<li class="sidemenutopentry newgame" onclick="openLeftMenu()">newgame</li>
+		  		
+		  		<a href="" class="leftsidemenutooltip" title="Schedule">
+		  			<span><li class="sidemenutopentry mainentry scheduled" onclick=""></li></span>
+		  		</a>
+		  		<a href="" class="leftsidemenutooltip" title="History">
+		  			<span><li class="sidemenutopentry mainentry history" onclick=""></li></span>
+		  		</a>
+		  		<a href="" class="leftsidemenutooltip" title="Settings">
+		  			<span><li class="sidemenutopentry mainentry settings" onclick=""></li></span>
+		  		</a>
+		  		<a href="" class="leftsidemenutooltip" title="Newgame">
+		  			<span><li class="sidemenutopentry newgame" onclick=""></li></span>
+		  		</a>
+		  		
 		  	</ul>
-		  	<ul id="sidemenuexpand" onclick="openLeftMenu()">
-		  		<li id="sidemenubottomentry" class="sidemenubottomentry">expand</li>
-		  	</ul>
+		  	<!-- <ul id="sidemenuexpand">
+		  		something on bottom of side bar
+		  	</ul> -->
 		  </div>
 
 		  <div id="maincontent">

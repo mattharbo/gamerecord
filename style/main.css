@@ -235,9 +235,9 @@ img.profile_pic{
 }
 
 #sidemenu {
-    width:60px;
+    width:70px;
     display:inline-block;
-    /*background:#E4E4E6;*/
+    background-color:#203E55;
     /*background: rgb(0, 111, 113);*/
     height:100%;
     float:left;
@@ -246,55 +246,74 @@ img.profile_pic{
 }
 
 li.sidemenutopentry {
-    box-sizing: border-box;
-    width: 60px;
-    height: 40px;
-    background: #cce5ff;
-    margin-top: 20px;
-    text-indent: -9999px;
+    /*box-sizing: border-box;*/
+    width: 32.5px;
+    height: 32.5px;
+    margin: 20px auto;
+    /*text-indent: -9999px;*/
     cursor:pointer;
+    text-align: center;
+}
+
+.leftsidemenutooltip{
+display: inline;
+position: relative;
+}
+.leftsidemenutooltip:hover:after{
+background-color: #345066;
+border-radius: 3px;
+font-weight: 400;
+font-size: 12px;
+/*color: #98ACBD;*/
+color: white;
+content: attr(title);
+margin: -48px 0 0 60px;
+padding: 5px 10px;
+position: absolute;
+z-index: 98;
+width: auto;
+}
+
+.leftsidemenutooltip:hover:before{
+border: solid;
+border-color: transparent #345066;
+border-width: 6px 6px 6px 0;
+margin: 11px 0 0 55px;
+content: "";
+position: absolute;
+z-index: 99;
 }
 
 li.mainentry:hover {
-  border-left:4px solid #006365;
+  background-color: #345066;
+  border-radius: 3px;
   transition: all .2s ease-out;
 }
 
 li.scheduled {
   background: url(../ressources/scheduled_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 20px 20px;
-}
-
-li.scheduled:hover {
-  background: url(../ressources/scheduled_entry@x1.png) no-repeat scroll 15px center;
-  background-size: 20px 20px;
+  background-size: 19px 19px;
 }
 
 li.history {
   background: url(../ressources/history_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 20px 20px;
-}
-
-}
-li.history:hover {
-  background: url(../ressources/history_entry@x1.png) no-repeat scroll 15px center;
-  background-size: 20px 20px;
+  background-size: 18px 18px;
 }
 
 li.settings {
   background: url(../ressources/settings_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 19px 19px;
-}
-
-}
-li.settings:hover {
-  background: url(../ressources/settings_entry@x1.png) no-repeat scroll 16px center;
-  background-size: 19px 19px;
+  background-size: 16px 16px;
 }
 
 li.newgame {
   background: url(../ressources/newgame_entry_default@x1.png) no-repeat scroll center center;
-  background-size: 33px 33px;
+  background-color: #009396;
+  border-radius: 3px;
+  background-size: 18px 18px;
+}
+
+li.newgame:hover {
+  background-color: #006365;
 }
 
 ul#sidemenuexpand{
@@ -305,17 +324,6 @@ ul#sidemenuexpand{
   /*border-top: 1px solid #CED6DE;*/
   /*background-color: red;*/
   cursor:pointer;
-}
-
-li.sidemenubottomentry {
-  box-sizing: border-box;
-  height: 45px;
-  text-indent: -9999px;
-}
-
-li#sidemenubottomentry{
-  background: url(../ressources/expand_icon@x1.png) no-repeat scroll center center;
-  background-size: 10px 12px;
 }
 
 #maincontent {
@@ -580,43 +588,24 @@ li#sidemenubottomentry{
 
   li.scheduled {
     background: url(../ressources/scheduled_entry_default@x2.png) no-repeat scroll center center;
-    background-size: 20px 20px;
-  }
-
-  li.scheduled:hover {
-    background: url(../ressources/scheduled_entry@x2.png) no-repeat scroll 15px center;
-    background-size: 20px 20px;
+    background-size: 19px 19px;
   }
 
   li.history {
     background: url(../ressources/history_entry_default@x2.png) no-repeat scroll center center;
-    background-size: 20px 20px;
-  }
-
-  }
-  li.history:hover {
-    background: url(../ressources/history_entry@x2.png) no-repeat scroll 15px center;
-    background-size: 20px 20px;
+    background-size: 18px 18px;
   }
 
   li.settings {
   background: url(../ressources/settings_entry_default@x2.png) no-repeat scroll center center;
-  background-size: 19px 19px;
-  }
-
-  li.settings:hover {
-    background: url(../ressources/settings_entry@x2.png) no-repeat scroll 16px center;
-    background-size: 19px 19px;
+  background-size: 16px 16px;
   }
 
   li.newgame {
   background: url(../ressources/newgame_entry_default@x2.png) no-repeat scroll center center;
-  background-size: 33px 33px;
-  }
-
-  li#sidemenubottomentry{
-    background: url(../ressources/expand_icon@x2.png) no-repeat scroll center center;
-    background-size: 10px 12px;
+  border-radius: 3px;
+  background-color: #009396;
+  background-size: 18px 18px;
   }
 
   #eventdeletion{
