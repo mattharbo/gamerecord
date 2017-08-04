@@ -256,29 +256,29 @@ li.sidemenutopentry {
 }
 
 .leftsidemenutooltip{
-display: inline;
-position: relative;
+  display: inline;
+  position: relative;
 }
 .leftsidemenutooltip:hover:after{
-background-color: #345066;
-border-radius: 3px;
-font-weight: 400;
-font-size: 12px;
-/*color: #98ACBD;*/
-color: white;
-content: attr(title);
-margin: -48px 0 0 60px;
-padding: 5px 10px;
-position: absolute;
-z-index: 98;
-width: auto;
+  background-color: #345066;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 12px;
+  /*color: #98ACBD;*/
+  color: white;
+  content: attr(title);
+  margin: -53px 0 0 60px;
+  padding: 9px 10px;
+  position: absolute;
+  z-index: 98;
+  width: auto;
 }
 
 .leftsidemenutooltip:hover:before{
 border: solid;
 border-color: transparent #345066;
 border-width: 6px 6px 6px 0;
-margin: 11px 0 0 55px;
+margin: 9.5px 0 0 55px;
 content: "";
 position: absolute;
 z-index: 99;
