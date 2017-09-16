@@ -1,18 +1,18 @@
 <?php
 	// session_start();
-	print_r($_SESSION);
+	// print_r($_SESSION);
 	// echo $_SESSION['login'];
 
 	// On teste si la variable de session existe et contient une valeur
-	if(empty($_SESSION['login'])) 
-	{
+	// if(empty($_SESSION['login'])) 
+	// {
 	  // Si inexistante ou nulle, on redirige vers le formulaire de login
 	  // header('Location: http://www.monsite.com/authentification.php');
 	  // exit();
-	  echo "Session variable missing! &#x1F62D &#x1F62D &#x1F62D";
-	}else {
-		echo $_SESSION['login'];
-	}
+	//   echo "Session variable missing! &#x1F62D &#x1F62D &#x1F62D";
+	// }else {
+	// 	echo $_SESSION['login'];
+	// }
 
 	// // Réinitialisation du tableau de session
  //  	// On le vide intégralement
