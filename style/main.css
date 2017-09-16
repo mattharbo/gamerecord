@@ -135,6 +135,16 @@ ul {
   line-height: 26px;
 }
 
+.new_game_validation{
+  display:inline-block;
+  /*text-transform: uppercase;*/
+  font-weight: 600;
+  font-size: 12px;
+  width: 450px;
+  height: 26px;
+  line-height: 26px;
+}
+
 .option_btn{
   display:inline-block;
   /*text-transform: uppercase;*/
@@ -506,6 +516,20 @@ ul#sidemenuexpand{
   margin: -100px 0 0 -200px;
   overflow: hidden;
   background-color: #fafafa;
+  visibility: hidden;
+}
+
+#newgamepopin{
+  position: absolute;
+  width: 500px;
+  height: auto;
+  border-radius: 3px;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -250px;
+  overflow: hidden;
+  background-color: #fafafa;
+  visibility: hidden;
 }
 
 #popintitle{
@@ -544,9 +568,12 @@ ul#sidemenuexpand{
 #closebtn{
   position: absolute;
   width: 10px;
+  height: 10px;
   right: 0;
-  margin: -50px 15px 0 0;
+  margin: -30px 15px 0 0;
   cursor: pointer;
+  background: url(../ressources/close_icon@x1.png) no-repeat scroll center center;
+  background-size: 10px 10px;
 }
 
 /***************************/
@@ -620,5 +647,10 @@ ul#sidemenuexpand{
     background: url(../ressources/bin_icon_hover@x2.png) no-repeat scroll center left;
     background-size: 14px 15px;
   }
+
+  #closebtn{
+  background: url(../ressources/close_icon@x2.png) no-repeat scroll center center;
+  background-size: 10px 10px;
+}
       
 }

@@ -1,3 +1,27 @@
+<?php
+	// session_start();
+	// print_r($_SESSION);
+	// echo $_SESSION['login'];
+
+	// On teste si la variable de session existe et contient une valeur
+	// if(empty($_SESSION['login'])) 
+	// {
+	  // Si inexistante ou nulle, on redirige vers le formulaire de login
+	  // header('Location: http://www.monsite.com/authentification.php');
+	  // exit();
+	//   echo "Session variable missing! &#x1F62D &#x1F62D &#x1F62D";
+	// }else {
+	// 	echo $_SESSION['login'];
+	// }
+
+	// // Réinitialisation du tableau de session
+ //  	// On le vide intégralement
+ //  	$_SESSION = array();
+ //  	// Destruction de la session
+ //  	session_destroy();
+ //  	// Destruction du tableau de session
+ //  	unset($_SESSION);
+?>
 <html lang="en">
 	<head>
 		<title>Staper | Record and manage your game stats</title>
@@ -26,7 +50,7 @@
 		    <div id="user">
 
 		    	<div id="newbtn">
-		    		<a href="#" class="submit_btn new_game_btn">New Game</a>
+		    		<a href="#" class="submit_btn new_game_btn" onclick="openpopin('newgamepopin','prout1')">New Game</a>
 		    	</div>
 
 		    	<div id="account">
@@ -41,17 +65,17 @@
 		  <div id="sidemenu">
 		  	<ul>
 		  		
-		  		<a href="" class="leftsidemenutooltip" title="Schedule">
-		  			<span><li class="sidemenutopentry mainentry scheduled" onclick=""></li></span>
+		  		<a href="/scheduled" class="leftsidemenutooltip" title="Schedule">
+		  			<span><li class="sidemenutopentry mainentry scheduled"></li></span>
 		  		</a>
-		  		<a href="" class="leftsidemenutooltip" title="History">
-		  			<span><li class="sidemenutopentry mainentry history" onclick=""></li></span>
+		  		<a href="/records" class="leftsidemenutooltip" title="Analyse">
+		  			<span><li class="sidemenutopentry mainentry history"></li></span>
 		  		</a>
-		  		<a href="" class="leftsidemenutooltip" title="Settings">
-		  			<span><li class="sidemenutopentry mainentry settings" onclick=""></li></span>
+		  		<a class="leftsidemenutooltip" title="Create">
+		  			<span><li class="sidemenutopentry newgame" onclick="openpopin('newgamepopin','prout2')"></li></span>
 		  		</a>
-		  		<a href="" class="leftsidemenutooltip" title="Newgame">
-		  			<span><li class="sidemenutopentry newgame" onclick=""></li></span>
+		  		<a href="settings" class="leftsidemenutooltip" title="Manage">
+		  			<span><li class="sidemenutopentry mainentry settings"></li></span>
 		  		</a>
 		  		
 		  	</ul>
@@ -89,7 +113,7 @@
 				  		</div>
 
 				  		<div id="eventdeletioncontainer">
-				  			<div id="eventdeletion" onclick="opensmallpopin('gameidhere1')"></div>
+				  			<div id="eventdeletion" onclick="openpopin('smallpopin','gameidhere1')"></div>
 				  		</div>
 
 				  	</div>
@@ -116,7 +140,7 @@
 				  		</div>
 
 				  		<div id="eventdeletioncontainer">
-				  			<div id="eventdeletion" onclick="opensmallpopin('gameidhere2')"></div>
+				  			<div id="eventdeletion" onclick="openpopin('smallpopin', 'gameidhere2')"></div>
 				  		</div>
 
 				  	</div>
@@ -182,11 +206,11 @@
 		</div>
 
 		<div id="popinbackground">
-			<div id="smallpopin">
 
+			<div id="smallpopin">
 				<div id="popintitle">
 					<span class="popintitle">Delete this game?</span>
-					<div id="closebtn" onclick="closesmallpopin()">X</div>
+					<div id="closebtn" onclick="closepopin('smallpopin')"></div>
 				</div>
 
 				<div id="popincontent">
@@ -194,10 +218,28 @@
 				</div>
 
 				<div id="popinoptions">
-		    		<a class="cancel_btn option_btn" onclick="closesmallpopin()">Cancel</a>
+		    		<a class="cancel_btn option_btn" onclick="closepopin('smallpopin')">Cancel</a>
 		    		<a class="delete_btn option_btn">Delete</a>
 		    	</div>
+			</div>
 
+			<div id="newgamepopin">
+				<div id="popintitle">
+					<span class="popintitle">New game &#x1F389;</span>
+					<div id="closebtn" onclick="closepopin('newgamepopin')"></div>
+				</div>
+
+				<div id="popincontent">
+					MATCH CREATION FORM HERE!
+				</div>
+
+				<div id="popinoptions">
+
+					<a class="submit_btn new_game_validation" onclick="">Create game</a>
+
+		    		<!-- <a class="cancel_btn option_btn" onclick="closepopin('newgamepopin')">Cancel</a>
+		    		<a class="delete_btn option_btn">Delete</a> -->
+		    	</div>
 			</div>
 		<div>
 
