@@ -1,41 +1,7 @@
 <?php
-	// session_start();
-	// print_r($_SESSION);
-	// echo $_SESSION['login'];
-
-	// On teste si la variable de session existe et contient une valeur
-	// if(empty($_SESSION['login'])) 
-	// {
-	  // Si inexistante ou nulle, on redirige vers le formulaire de login
-	  // header('Location: http://www.monsite.com/authentification.php');
-	  // exit();
-	//   echo "Session variable missing! &#x1F62D &#x1F62D &#x1F62D";
-	// }else {
-	// 	echo $_SESSION['login'];
-	// }
-
-	// // Réinitialisation du tableau de session
- //  	// On le vide intégralement
- //  	$_SESSION = array();
- //  	// Destruction de la session
- //  	session_destroy();
- //  	// Destruction du tableau de session
- //  	unset($_SESSION);
+include './functions/layout.php';
+echo htmlheader("Dashboard", "./style/main.css");
 ?>
-<html lang="en">
-	<head>
-		<title>Staper | Record and manage your game stats</title>
-		
-        <link rel="stylesheet" href="./style/main.css">
-        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900" rel="stylesheet">
-		<!-- <link rel="icon" href="./img/favicon.png"> -->
-        <!-- <link rel="apple-touch-icon" sizes="120x120" href="../ressources/touch-icon-iphone.png"> -->
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-		
-	</head>
-	<body>
 		
 		<div id="header">
 		    <div id="logo">
@@ -242,9 +208,6 @@
 		    	</div>
 			</div>
 		<div>
-
-		<!-- ### SCRIPTS ### -->
-		<script type="text/javascript" src='./lib/maininterface.js'></script>
-
-	</body>
-</html>
+<?
+echo htmlfooter();
+?>
