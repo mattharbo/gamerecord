@@ -76,20 +76,22 @@ ul {
     width:100%;
     height:50px;
     overflow: hidden;
-    /*background:red;*/
-    border-bottom: 1px solid rgba(0, 0, 0, 0.098);
+    background:white;
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0.098);*/
+
 }
 
 
 #logo{
-  width:115px;
+  width:71px;
   height:50px;
   display:inline-block;
   float:left;
+  /*background-color:#203E55;*/
   text-indent: -9999px;
-  white-space: nowrap; 
+  white-space: nowrap;
   background: url(../ressources/staper_logo@x1.png) no-repeat scroll center center;
-  background-size: 65px 10px;
+  background-size: 50px 8px;
   cursor:pointer;
   /*background:orange;*/
 }
@@ -174,14 +176,14 @@ a.delete_btn:hover{
 a.submit_btn{
   border-radius: 3px;
   text-align: center;
-  background-color: #009396;
-  border: 1px solid #009396;
+  background-color: #1e83dc;
+  border: 1px solid #1e83dc;
   color: #FBFBFB;
 }
 
 a.submit_btn:hover{
-  background-color: #006365;
-  border: 1px solid #006365;
+  background-color: #0c64b1;
+  border: 1px solid #0c64b1;
   box-shadow: 0px 0px 6px 0px #E2E2E2;
   transition: .2s ease-in-out;
   cursor: pointer;
@@ -317,13 +319,13 @@ li.settings {
 
 li.newgame {
   background: url(../ressources/newgame_entry_default@x1.png) no-repeat scroll center center;
-  background-color: #009396;
+  background-color: #1e83dc;
   border-radius: 3px;
   background-size: 18px 18px;
 }
 
 li.newgame:hover {
-  background-color: #006365;
+  background-color: #0c64b1;
 }
 
 ul#sidemenuexpand{
@@ -339,7 +341,7 @@ ul#sidemenuexpand{
 #maincontent {
     width: auto;
     height:100%;
-    background:#e6ecf0;
+    background:#f0f4f7;
     color: #CED6DE;
     overflow: auto;
     z-index: 4;
@@ -362,7 +364,7 @@ ul#sidemenuexpand{
 }
 
 .contenttitle{
-  margin-left:20px; 
+  margin-left:20px;
   font-size: 19px;
 }
 
@@ -477,7 +479,7 @@ ul#sidemenuexpand{
 .leagueinfo{
   font-size: 13px;
   font-weight: 700;
-  color: #009396;
+  color: #0c64b1;
 }
 
 .overdue{
@@ -545,7 +547,7 @@ ul#sidemenuexpand{
 
 .popintitle{
   font-size: 14px;
-  /*color: #009396;*/
+  /*color: #1e83dc;*/
 }
 
 #popincontent{
@@ -576,6 +578,19 @@ ul#sidemenuexpand{
   background-size: 10px 10px;
 }
 
+#testroundedcorner{
+  width: 200px;
+  height: 100px;
+  margin: 20px auto 0 auto;
+  border-radius: 3px;
+  background-color: white;
+  -moz-box-shadow: 0px 1px 1px 0px #cfcfcf;
+  -webkit-box-shadow: 0px 1px 1px 0px #cfcfcf;
+  -o-box-shadow: 0px 1px 1px 0px #cfcfcf;
+  box-shadow: 0px 1px 1px 0px #cfcfcf;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=180, Strength=1);
+}
+
 /***************************/
 /*Responsive management*/
 /***************************/
@@ -601,11 +616,12 @@ ul#sidemenuexpand{
 /*Image management*/
 /***************************/
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 
   #logo{
     background: url(../ressources/staper_logo@x2.png) no-repeat scroll center center;
-    background-size: 65px 10px;
+    background-size: 50px 8px;
+    background-color:#203E55;
   }
 
   .search-field{
@@ -631,7 +647,7 @@ ul#sidemenuexpand{
   li.newgame {
   background: url(../ressources/newgame_entry_default@x2.png) no-repeat scroll center center;
   border-radius: 3px;
-  background-color: #009396;
+  background-color: #1e83dc;
   background-size: 18px 18px;
   }
 
@@ -652,5 +668,5 @@ ul#sidemenuexpand{
   background: url(../ressources/close_icon@x2.png) no-repeat scroll center center;
   background-size: 10px 10px;
 }
-      
+
 }
