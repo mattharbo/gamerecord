@@ -2,17 +2,17 @@
 include './functions/layout.php';
 echo htmlheader("Dashboard", "./style/main.css");
 ?>
-		
+
 		<div id="header">
 		    <div id="logo">
 		    	logo
 		    </div>
-		    
+
 		    <div id="search">
 		    	<input type="text" placeholder="Search" class="search-field"></input>
 		    </div>
-		    
-		    
+
+
 		    <div id="user">
 
 		    	<div id="newbtn">
@@ -30,7 +30,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 		<div id="content">
 		  <div id="sidemenu">
 		  	<ul>
-		  		
+
 		  		<a href="/scheduled" class="leftsidemenutooltip" title="Schedule">
 		  			<span><li class="sidemenutopentry mainentry scheduled"></li></span>
 		  		</a>
@@ -43,7 +43,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 		  		<a href="settings" class="leftsidemenutooltip" title="Manage">
 		  			<span><li class="sidemenutopentry mainentry settings"></li></span>
 		  		</a>
-		  		
+
 		  	</ul>
 		  	<!-- <ul id="sidemenuexpand">
 		  		something on bottom of side bar
@@ -52,7 +52,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 
 		  <div id="maincontent">
 
-				<div id="listingcontent">		  	
+				<div id="listingcontent">
 
 				  	<div id="contenttitlecontainer">
 				  		<span class="contenttitle">Scheduled games</span>
@@ -72,7 +72,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 				  				<span class="journeyinfo">· Quater Final</span>
 				  			</div>
 				  			<div id="eventteams" class="overdue">
-				  				France 
+				  				France
 				  				<span class="versusteam">vs.</span>
 				  				England
 				  			</div>
@@ -99,7 +99,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 				  				<span class="journeyinfo">· Journey 1</span>
 				  			</div>
 				  			<div id="eventteams">
-				  				Paris Saint-Germain 
+				  				Paris Saint-Germain
 				  				<span class="versusteam">vs.</span>
 				  				Barcelona FC
 				  			</div>
@@ -125,7 +125,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 				  				<span class="journeyinfo">· Final</span>
 				  			</div>
 				  			<div id="eventteams" class="overdue">
-				  				France 
+				  				France
 				  				<span class="versusteam">vs.</span>
 				  				Brazil
 				  			</div>
@@ -152,7 +152,7 @@ echo htmlheader("Dashboard", "./style/main.css");
 				  				<span class="journeyinfo">· Journey 1</span>
 				  			</div>
 				  			<div id="eventteams">
-				  				Paris Saint-Germain 
+				  				Paris Saint-Germain
 				  				<span class="versusteam">vs.</span>
 				  				Barcelona FC
 				  			</div>
@@ -165,7 +165,11 @@ echo htmlheader("Dashboard", "./style/main.css");
 				  	</div>
 
 		  		</div>
-		    
+
+					<div id="testroundedcorner">
+						testroundedcorner
+					</div>
+
 		   </div>
 
 
