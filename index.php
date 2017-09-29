@@ -1,14 +1,10 @@
 <?php
 include './functions/usersession.php';
 login();
+
+include './functions/layout.php';
+echo htmlheader("Login", "./style/main.css");
 ?>
-
-<html>
-<head>
-<title>Login form</title>
-</head>
-
-<body>
 
   <form action="./" method="post">
   Login : <input type="text" name="login">
@@ -18,5 +14,6 @@ login();
   <input type="submit" value="Connexion">
   </form>
 
-</body>
-</html>
+  <?
+  echo htmlfooter();
+  ?>
