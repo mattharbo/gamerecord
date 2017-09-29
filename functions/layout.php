@@ -12,8 +12,8 @@ return <<<HTML
 		})(window,document,'script','dataLayer','GTM-5SVTSB7');</script>
 		<!-- End Google Tag Manager -->
 
-		<title>Gamerecord • {$title}</title>
-		
+		<title>{$title} • Gamerecord</title>
+
         <link rel="stylesheet" type="text/css" href="{$css}">
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900" rel="stylesheet">
@@ -21,7 +21,7 @@ return <<<HTML
         <!-- <link rel="apple-touch-icon" sizes="120x120" href="../ressources/touch-icon-iphone.png"> -->
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-		
+
 	</head>
 	<body>
 	<!-- Google Tag Manager (noscript) -->
