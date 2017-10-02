@@ -1,6 +1,9 @@
 <?
 
 function login(){
+
+  checksessionatfirstco();
+
   // On définit un login et un mot de passe de base pour tester notre exemple. Cependant, vous pouvez très bien interroger votre base de données afin de savoir si le visiteur qui se connecte est bien membre de votre site
   $login_valide = "matt";
   $pwd_valide = "harbo";
@@ -30,6 +33,15 @@ function login(){
   }
 }
 
+function checksessionatfirstco(){
+  // On démarre la session (ceci est indispensable dans toutes les pages de notre section membre)
+  session_start ();
+
+  if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
+    header ('location: ./dashboard.php');
+  }
+}
+
 function checksession(){
   // On démarre la session (ceci est indispensable dans toutes les pages de notre section membre)
   session_start ();
@@ -37,7 +49,6 @@ function checksession(){
   // Si pas de variables de session alors on redirige vers le formulaire de connexion
   if (!isset($_SESSION['login']) && !isset($_SESSION['pwd'])) {
     header ('location: ./');
-    // header ('location: ../sessiontest/index.php');
   }
 }
 
