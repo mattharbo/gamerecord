@@ -91,7 +91,7 @@ ul {
   text-indent: -9999px;
   white-space: nowrap;
   background: url(../ressources/staper_logo@x1.png) no-repeat scroll center center;
-  background-size: 50px 8px;
+  background-size: 40px 30px;
   cursor:pointer;
   /*background:orange;*/
 }
@@ -108,7 +108,7 @@ ul {
   background: url(../ressources/search_icon.png) no-repeat scroll 0px 18px;
   background-size: 15px 15px;
   padding-left:25px;
-  margin-left: 10px;
+  margin-left: 20px;
   border: none;
   height:100%;
   width: 90%;
@@ -345,6 +345,8 @@ ul#sidemenuexpand{
     color: #CED6DE;
     overflow: auto;
     z-index: 4;
+    background: url(../ressources/maincontentbg@x1.png) no-repeat scroll center center;
+    background-size: 245px 43px;
 }
 
 #listingcontent{
@@ -373,6 +375,7 @@ ul#sidemenuexpand{
   height: 90px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.098);
   background-color: white;
+  color: black;
 }
 
 #contentline:hover{
@@ -620,7 +623,7 @@ ul#sidemenuexpand{
 
   #logo{
     background: url(../ressources/staper_logo@x2.png) no-repeat scroll center center;
-    background-size: 50px 8px;
+    background-size: 40px 30px;
     background-color:#203E55;
   }
 
@@ -649,6 +652,11 @@ ul#sidemenuexpand{
   border-radius: 3px;
   background-color: #1e83dc;
   background-size: 18px 18px;
+  }
+
+  #maincontent {
+      background: url(../ressources/maincontentbg@x2.png) no-repeat scroll center center;
+      background-size: 245px 43px;
   }
 
   #eventdeletion{

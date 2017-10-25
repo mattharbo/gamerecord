@@ -22,7 +22,7 @@ function login(){
   		$_SESSION['pwd'] = $_POST['pwd'];
 
   		// on redirige notre visiteur vers une page de notre section membre
-  		header ('location: ./dashboard.php');
+  		header ('location: ./app/');
       // header ('location: ./dashboard.php');
   	}
   	else {
@@ -38,7 +38,7 @@ function checksessionatfirstco(){
   session_start ();
 
   if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
-    header ('location: ./dashboard.php');
+    header ('location: ./app/');
   }
 }
 
