@@ -385,6 +385,7 @@ ul#sidemenuexpand{
 
 #eventdate{
   float: left;
+  color: black;
   height: 90px;
   width: 95px;
   /*background-color: yellow;*/
@@ -392,6 +393,7 @@ ul#sidemenuexpand{
 
 #eventdetails{
   display: inline-block;
+  color: black;
   width: 660px;
   height: 90px;
   /*line-height: 90px;*/

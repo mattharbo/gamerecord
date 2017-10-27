@@ -38,7 +38,7 @@ function checksessionatfirstco(){
   session_start ();
 
   if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
-    header ('location: ./app/');
+    header ('location: ../');
   }
 }
 
@@ -48,7 +48,7 @@ function checksession(){
 
   // Si pas de variables de session alors on redirige vers le formulaire de connexion
   if (!isset($_SESSION['login']) && !isset($_SESSION['pwd'])) {
-    header ('location: ./');
+    header ('location: ../');
   }
 }
 
