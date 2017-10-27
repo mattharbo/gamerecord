@@ -6,9 +6,10 @@
 
     <!-- #### Overdue game #### -->
 
-    <a href="#/record/?id=032">
+
       <div id="contentline" onclick="function and gameidhere">
 
+        <a href="#/record/?id=032">
         <div id="eventdate">
           <span class="overduedate overdue">Overdue</span>
         </div>
@@ -24,19 +25,21 @@
             England
           </div>
         </div>
+        </a>
 
         <div id="eventdeletioncontainer">
           <div id="eventdeletion" onclick="openpopin('smallpopin','gameidhere1')"></div>
         </div>
 
       </div>
-    </a>
+
 
     <!-- #### Scheduled game #### -->
 
-    <a href="#/record/?id=81376">
+
       <div id="contentline" onclick="function and gameidhere">
 
+        <a href="#/record/?id=81376">
         <div id="eventdate">
           <span class="month">AUG</span>
           <span class="date">12</span>
@@ -53,19 +56,21 @@
             Barcelona FC
           </div>
         </div>
+        </a>
 
         <div id="eventdeletioncontainer">
           <div id="eventdeletion" onclick="openpopin('smallpopin', 'gameidhere2')"></div>
         </div>
 
       </div>
-    </a>
+
 
     <!-- #### Overdue game #### -->
 
-    <a href="#/record/?id=7348">
+
       <div id="contentline" onclick="function and gameidhere">
 
+        <a href="#/record/?id=7348">
         <div id="eventdate">
           <span class="overduedate overdue">Overdue</span>
         </div>
@@ -81,19 +86,21 @@
             Brazil
           </div>
         </div>
+        </a>
 
         <div id="eventdeletioncontainer">
           <div id="eventdeletion"></div>
         </div>
 
       </div>
-    </a>
+
 
     <!-- #### Countdown game #### -->
 
-    <a href="#/record/?id=109384">
+
       <div id="contentline" onclick="function and gameidhere">
 
+        <a href="#/record/?id=109384">
         <div id="eventdate">
           <span class="startsin">Starts in</span>
           <span class="startintime">2h 32min</span>
@@ -110,13 +117,14 @@
             Barcelona FC
           </div>
         </div>
+        </a>
 
         <div id="eventdeletioncontainer">
           <div id="eventdeletion"></div>
         </div>
 
       </div>
-    </a>
+
 
   </div>
 
