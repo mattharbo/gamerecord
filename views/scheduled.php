@@ -39,7 +39,7 @@
 
       <div id="contentline" onclick="function and gameidhere">
 
-        <a href="#/record/?id=81376">
+        <a href="/gamerecord/app/record/">
         <div id="eventdate">
           <span class="month">AUG</span>
           <span class="date">12</span>

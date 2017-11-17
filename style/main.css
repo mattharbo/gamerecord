@@ -16,7 +16,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;/*twitter like*/
   font-size: 13px;
   font-weight: 600;
-  background-color: #fafafa;
+  background-color: #F2F5F7;
   box-sizing: border-box;
   /*height: 100%;*/
 }
@@ -78,7 +78,10 @@ ul {
     overflow: hidden;
     background:white;
     /*border-bottom: 1px solid rgba(0, 0, 0, 0.098);*/
-
+    -moz-box-shadow: 0px 1px 1px 0px #c0c0c0;
+    -webkit-box-shadow: 0px 1px 1px 0px #c0c0c0;
+    -o-box-shadow: 0px 1px 1px 0px #c0c0c0;
+    box-shadow: 0px 1px 1px 0px #c0c0c0;
 }
 
 
