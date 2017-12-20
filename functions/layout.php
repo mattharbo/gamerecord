@@ -52,7 +52,7 @@ return <<<HTML
 		<link rel="stylesheet" type="text/css" href="{$css}">
 		<!-- <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/css" /> -->
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900" rel="stylesheet">
-		<link rel="icon" href="../ressources/favicon.png">
+		<link rel="icon" href="../../ressources/favicon.png">
 		<!-- <link rel="apple-touch-icon" sizes="120x120" href="../ressources/touch-icon-iphone.png"> -->
 
 		<title>Gamerecord | {$title}</title>

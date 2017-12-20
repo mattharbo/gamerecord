@@ -1,4 +1,4 @@
-/***************************/
+  /***************************/
 /*Style page setup*/
 /***************************/
 
@@ -94,7 +94,7 @@ ul {
   text-indent: -9999px;
   white-space: nowrap;
   background: url(../ressources/staper_logo@x1.png) no-repeat scroll center center;
-  background-size: 40px 30px;
+  background-size: 30px 23px;
   cursor:pointer;
   /*background:orange;*/
 }
@@ -628,7 +628,7 @@ ul#sidemenuexpand{
 
   #logo{
     background: url(../ressources/staper_logo@x2.png) no-repeat scroll center center;
-    background-size: 40px 30px;
+    background-size: 30px 23px;
     background-color:#203E55;
   }
 
